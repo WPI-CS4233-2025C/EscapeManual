@@ -344,10 +344,7 @@ The valued attribute defines the maximum **`path`** distance that a piece with t
 
 <!-- The following diagram illustrates the difference between a path and the distance between two coordinates in a `SQUARE` board and a piece that has `OMNI` movement pattern. Each board/movement pattern combination might influence what a legal path might be. -->
 
-![2](images/SquarePath.png)
-![2](images/HexPath.png) 
-
- <center><b>Square Board Distances</b></center>  | <center><b>Hexagonal Board Distances</b></center> 
+ **Square Board Distances**  | **Hexagonal Board Distances**
  |:------------------------------------:|:---------------------------------------:|
  ![2](images/SquarePath.png)          | ![2](images/HexPath.png) 
 
@@ -359,7 +356,8 @@ Like the `DISTANCE` attribute, `FLY` is a value attribute. Any unit that has a `
 
 This is a simple attribute. A piece with this attribute can jump over other pieces that may be on the path from the piece's starting point to ending point of a move. A piece with `JUMP` may jump over just one piece at a time. If, for instance the desired path has two other pieces in consecutive locations along the path, then the `JUMP` would be invalid. If, however, two or more pieces are in the path and there is at least one empty location between pieces, then the `JUMP` is valid. The piece may not change directions during the jump. The figure below shows examples of valid and invalid jumps. The blue circle is the moving piece and the red circles represent other pieces (regardless of which player owns them). A piece with `JUMP` **may not** jump over a `BLOCK` or `EXIT` location; however it may jump over a piece and land on an `EXIT` location. Jumping over a piece takes two locations along the path. So, if a piece only has one location left when it attempts to jump, it cannot perform that jump.
 
-<center><b><h2>Valid Moves</h2></b></center>  | <center><b><h2>Invalid Moves</h2></b></center>
+
+**Valid Moves** | **Invalid Moves**
 :------------------------------------:|:---------------------------------------:
 ![](images/jump1.png)          | ![](images/jump3.png)
 ![](images/jump2.png)          | 
