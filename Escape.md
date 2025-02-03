@@ -346,7 +346,7 @@ The valued attribute defines the maximum **`path`** distance that a piece with t
 
 <center><b>Square Board Distances</b></center>  | <center><b>Hexagonal Board Distances</b></center>
 :------------------------------------:|:---------------------------------------:
-![2](images/SquarePath.png)          | ![3](images/HexPath.png)
+![](images/SquarePath.png)          | ![](images/HexPath.png)
 
 
 ### The FLY attribute
