@@ -344,9 +344,9 @@ The valued attribute defines the maximum **`path`** distance that a piece with t
 
 <!-- The following diagram illustrates the difference between a path and the distance between two coordinates in a `SQUARE` board and a piece that has `OMNI` movement pattern. Each board/movement pattern combination might influence what a legal path might be. -->
 
-<center><b>Square Board Distances</b></center>  | <center><b>Hexagonal Board Distances</b></center>
-:------------------------------------:|:---------------------------------------:
-![](images/SquarePath.png)          | ![](images/HexPath.png)
+<center><b>Square Board Distances</b></center>  | <center><b>Hexagonal Board Distances</b></center> |
+:------------------------------------:|:---------------------------------------:|
+![](images/SquarePath.png)          | ![](images/HexPath.png) 
 
 
 ### The FLY attribute
