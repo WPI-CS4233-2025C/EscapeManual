@@ -115,7 +115,7 @@ Escape is played on a board that consists of locations
 
 The following figures show the most common 2D boards:
 
-<center><b>Square Board</b></center>  | <center><b>Hexagonal Board</b></center>
+**Square Board**  |  **Hexagonal Board**
 :------------------------------------:|:---------------------------------------:
 ![2](images/SquareBoard.png)          | ![3](images/HexagonBoard.png)
 
