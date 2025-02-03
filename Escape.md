@@ -359,8 +359,8 @@ This is a simple attribute. A piece with this attribute can jump over other piec
 
 <center><b><h2>Valid Moves</h2></b></center>  | <center><b><h2>Invalid Moves</h2></b></center>
 :------------------------------------:|:---------------------------------------:
-![2](images/jump1.png)          | ![3](images/jump3.png)
-![2](images/jump2.png)          | 
+![](images/jump1.png)          | ![](images/jump3.png)
+![](images/jump2.png)          | 
 
 
 ### The UNBLOCK attribute
