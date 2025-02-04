@@ -508,7 +508,7 @@ When this file is input to the *EscapaeConfigurator* tool it converts the config
 
 ---
 
-You can see how the tool works by running the provided java archiev file on the command line: 
+You can see how the tool works by running the provided java archieve file on the command line: 
 1. Create a folder called `ecg` and download sample ECG configuration file [`test1.egc`](egc/test1.egc) and the [`EscapeConfigurationTool.jar`](egc/EscapeConfigurationTool.jar) which is the Java archieved file for the EscapeConfigurator tool. A copy of the same file can be found under the `Lib/` folder of the given starter file.  
 2. On command prompt (or terminal) run the .jar file with input `test1.egc` using the following command:
 ```
