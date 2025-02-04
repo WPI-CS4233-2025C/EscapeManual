@@ -474,27 +474,35 @@ try to be consistent when writing your own configurations.
 
 ---
 
-``` 
+```
 Coordinate type : SQUARE
-xMax : 2
-yMax : 2
+xMax : 5
+yMax : 10
 Players : Chris Pat
 
 Locations :
-	(3, 5) block
-	(4, 4) clear Chris snail
-	(5, 12) exit
-	
+    /* Chris */
+    (3, 2) Chris bird
+    (2, 8) Chris snail
+
+    /* Player Pat */
+    (5, 8) Pat dog
+    (1, 8) Pat snail
+
+    /* BLOCK */
+    (3, 8) block
+
+    /* EXIT */
+    (4, 9) exit
+
 Piece descriptors :
-	SNAIL omni [distance 1]
-	DOG linear [distance 5]
-	HORSE diagonal [distance 7, jump]
-	bird linear [fly, distance 5]
-	frog omni [distance 3, unblock]
-	
+	SNAIL linear [distance 3, unblock]
+	BIRD orthogonal [distance 8, value 2, fly]
+	DOG diagonal [distance 2]
+
 Rules :
-	SCORE 10
-	TURN_LIMIT 20
+	SCORE 3
+	TURN_LIMIT 5
 ```
 When this file is input to the *EscapaeConfigurator* tool it converts the configuration into an XML representation that I think you will agree is much more complex and tedious to create. The configurator tool also checks for several possible errors, but not all of them yet.
 
