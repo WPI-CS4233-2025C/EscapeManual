@@ -323,11 +323,10 @@ The currently defined attributes are shown in this table along with their type a
 |-----------	|:------:	|-------------------------------------------------	|
 | VALUE     	| valued 	| The points associated with the piece            	|
 | DISTANCE  	| valued 	| The maximum distance that this piece may move.   	|
-| FLY       	| simple 	| This piece can cross over `BLOCK`, `EXIT`, and other pieces.    	| 
-| JUMP      	| simple 	| This piece may jump over obstacles              	|
-| UNBLOCK   	| simple 	| This piece may cross over a BLOCK location      	|
+| FLY       	| simple 	| This piece can cross over `BLOCK` and other pieces.    	| 
+| JUMP      	| simple 	| This piece may jump over other pieces.           	|
+| UNBLOCK   	| simple 	| This piece may cross over a BLOCK location.      	|
 
-**Note:** Unless the piece has FLY attribute, it can't  cross over `BLOCK`, `EXIT` and other pieces.  
 
 The rest of the subsections describe the attributes in more detail.
 
