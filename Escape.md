@@ -349,7 +349,8 @@ The valued attribute defines the maximum **`path`** distance that a piece with t
 
 ### The FLY attribute
 
-Like the `DISTANCE` attribute, `FLY` is a value attribute. Any unit that has a `FLY` attribute can simply move from its starting location to the end point, as long as no other restrictions prevent it from doing so, without worrying about `BLOCK` or `EXIT` locations or pieces in the way. A piece with this attribute may move from the starting location to the ending location, as long as there is a *valid path that satisfies the movement pattern for the piece* that is **less than or equal to the integer value of this attribute.** For example, if the piece has a `ORTHOGONAL` movement pattern, the legal path must be movement that is either horizontal or vertical.
+Like the `DISTANCE` attribute, `FLY` is a value attribute. Any unit that has a `FLY` attribute can simply move from its starting location to the end point, as long as no other restrictions prevent it from doing so, without worrying about `BLOCK` or other pieces in the way. A piece with this attribute may move from the starting location to the ending location, as long as there is a *valid path that satisfies the movement pattern for the piece* that is **less than or equal to the integer value of this attribute.** For example, if the piece has a `ORTHOGONAL` movement pattern, the legal path must be movement that is either horizontal or vertical.
+`FLY` pieces cannot move over `EXIT` coordinates. A `FLY` piece moving over an `EXIT` coordinate will fall to the `EXIT` and leave the game. 
 
 ### The JUMP attribute
 
