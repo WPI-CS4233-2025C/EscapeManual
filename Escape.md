@@ -139,7 +139,7 @@ are three types of locations:
     they are able to fly over it. Any attempt to cross an `EXIT` by a piece without `FLY` capability simply falls throuth the `EXIT` and is removed from the game. -->
 
 -   `BLOCK`: This type of location does not allow a piece to land on it.
-    A piece may not cross over a BLOCK unless they have `UNBLOCK` capabilities.
+    A piece may not cross over a BLOCK unless they have `UNBLOCK` or `FLY` capabilities.
 
     <!-- A piece may not cross over a BLOCK unless they have either `FLY` or
     `UNBLOCK` capabilities. -->
